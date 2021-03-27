@@ -1,4 +1,8 @@
 package com.platzi.market.persistence.crud;
 
-public interface ProductoCrudRepository {
+import com.platzi.market.persistence.entity.Compra;
+import org.springframework.data.repository.CrudRepository;
+
+public interface CompraCrudRepository extends CrudRepository<Compra, Integer> {
+
 }
